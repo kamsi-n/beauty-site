@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.topRow {
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    background-color: #D9F1F3;
+    display: flex;
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    overflow: hidden;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBar {
+    display: flex;
+    width: 50%;
+    height: fit-content;
+}
+
+input[type=text] {
+    width: 90%;
+    height: 40px;
+    border: 1px solid rgb(131, 131, 131);
+    padding: 5px;
+    font-size: 17px;
+}
+
+button[type=submit] {
+    width: 10%;
+    background-color: white;
+    border: 1px solid rgb(131, 131, 131);
+    border-left: none;
+}
+
+.rightBtn {
+    display: flex;
+    gap: -5px;
+}
+
+.acc {
+    padding: 6px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.bag {
+    padding: 6px;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.acc a, 
+.bag a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar1 {
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.bar2 {
+    background-color: #F0FCF3;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.bar3 {
+    background-color: #AED9BF;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.bar4 {
+    background-color: #F0FCF3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.bar4 p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.bar4 h2 {
+    padding: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.bar4 span {
+    font-weight: 600;
+}
+
+.bar4 button {
+    background-color: white;
+    border: none;
+    margin: 40px;
+    padding: 10px;
+    width: 20%;
+    height: fit-content;
+}
+
+.productBar {
+    background-color: #F0FCF3;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.text h1 {
+    font-weight: 100;
+}
+
+.text p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.text button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 70px 10px 5px 10px;
+}
+.image {
+    width: 50%;
+    background-image: url(daa587f8f76054be69b8fd60384fed92.jpg);
+    background-size: cover;
+}
